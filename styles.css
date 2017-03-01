@@ -448,6 +448,10 @@ h3 {
   width: 96%;
 }
 
+.world-icon {
+  fill: #808080;
+}
+
 .link-icon {
   height: 15px;
   width: 15px;
