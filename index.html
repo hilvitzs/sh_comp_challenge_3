@@ -1,179 +1,289 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Static Comp 3</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
   </head>
   <body>
-
+  <section class="whole-container">
+    <section class="main-content-container"
     <header>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <section class="menu-section">
+        <div class="hamburger-menu container">
+          <img class="menu icon" alt="menu icon" src="images/menu.png">
+        </div>
+        <div class="search-bar container">
+          <img class="search icon" alt="search-icon" src="images/search.png">
+          <input type="search" placeholder="Search for a job, task, or resume" class="main-search">
+        </div>
+        <div class="user container">
+          <img class="changeuser icon" alt="change-user icon"
+          src="images/addUser.png">
+        </div>
+        <div class="calendar container">
+          <img class="calendar-icon icon" alt="calendar icon" src="images/calendar.png">
+        </div>
+        <div class="grid container">
+          <img class="grid-icon icon" alt="grid icon" src="images/grid.png">
+        </div>
+      </section>
     </header>
 
-    <section>
-      <h1></h1>
+    <section class="customer-service">
+      <h1>Customer Service Representative</h1>
 
-      <h5></h5>
+      <h5>
+        <img class="location-icon" alt="location icon" src="images/location.svg">
+        San Francisco, CA ●
+      <a href="google.com">Preview this Post</a>
+      </h5>
 
-      <div>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+      <div class="main-buttons">
+        <button class="open-btn edit-buttons"> <span class="dot">●</span> Open</button>
+        <button class="edit-buttons"><img class="bookmark icons" src="images/bookmark.png">
+        </button>
+        <button class="edit-buttons"><img class="edit icons" src="images/pencil.png">
+        </button>
+        <button class="edit-buttons"><img class="delete icons" src="images/delete.png">
+        </button>
       </div>
 
-      <div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-      </div>
-
-    </section>
-
-    <hr>
-
-    <section>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
+      <div class="tabs">
+        <ul class="tab-choices">
+          <li class="summary page-nav">SUMMARY</li>
+          <li class="page-nav">APPLICANTS</li>
+          <li class="page-nav">JOB BOARD</li>
+          <li class="page-nav">INTERVIEWS</li>
+          <li class="page-nav">ACTIVITY</li>
+          <li class="page-nav">BROADCAST</li>
+          <li class="page-nav">NOTIFICATIONS</li>
       </div>
 
     </section>
 
-    <hr>
 
-    <article>
+    <section class="charts">
+      <div class="graph-holder-left">
+          <div class="applicants">3,154 <span class="chart-words">APPLICANTS</span></div>
+          <div class="interviews">1,546 <span class="chart-words">INTERVIEWS</span></div>
+          <div class="forwards">912 <span class="chart-words">FORWARDS</span></div>
+      </div>
+      <div class="graph-holder-right">
+        <img class="bar-graph" src="images/graph.svg">
+      </div>
+
+    </section>
+    <section class="middle-button-container">
+      <div class="total-button-container">
+          <div class="totals">TOTALS ● Out of 5,231 views</div>
+      </div>
+      <div class="applicants-button-container">
+        <div class="applicants-button">APPLICANTS/DAY</div>
+      </div>
+    </section>
+    <div class="horizontal-line">
+      <span class="left"></span>
+      <span class="up-arrow">
+        <svg class="up-arrow-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 474.64 474.64" style="enable-background:new 0 0 474.64 474.64;" xml:space="preserve">
+        		<g>
+        			<path style="fill:#010002;" d="M237.32,0.016C106.249,0.016,0,106.233,0,237.336s106.281,237.288,237.32,237.288
+        				s237.32-106.249,237.32-237.32S368.391,0.016,237.32,0.016z M237.32,442.841c-113.336,0-205.537-92.169-205.537-205.569
+        				S123.983,31.735,237.32,31.735s205.537,92.233,205.537,205.537S350.688,442.841,237.32,442.841z"/>
+        			<path style="fill:#010002;" d="M247.554,161.534c-3.115-3.115-7.183-4.608-11.283-4.608s-8.168,1.494-11.283,4.608
+        				L121.918,264.605c-6.198,6.198-6.198,16.273,0,22.47c6.198,6.198,16.273,6.198,22.47,0l91.883-91.883l91.883,91.883
+        				c6.198,6.198,16.273,6.198,22.47,0c6.198-6.198,6.198-16.273,0-22.47L247.554,161.534z"/>
+        </g>
+        </svg>
+      </span>
+      <span class="right"></span>
+    </div>
+
+    <section class="bottom-container">
+
+    <article class="table-container">
 
       <table>
-        <tr>
-          <th>Job Description</th>
-          <th><button></button>
-        </tr>
-        <tr>
-          <td>POSITION TITLE</td>
-          <td>Customer Service Representative</td>
-        </tr>
-        <tr>
-          <td>LOCATION</td>
-          <td>San Francisco, CA</td>
-        </tr>
-        <tr>
-          <td>EMPLOYMENT TYPE</td>
-          <td>Full-time</td>
-        </tr>
-        <tr>
-          <td>EXPERIENCE</td>
-          <td>Mid-level</td>
-        </tr>
-        <tr>
-          <td>STATUS</td>
-          <td>Open</td>
-        </tr>
-        <tr>
-          <td>DESCRIPTION</td>
-          <td>The Customer Service Representative is resposnible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich</td>
-        </tr>
-        <tr>
-          <td>HIRING LEAD</td>
-          <td><img>Tom Tizzy</td>
-        </tr>
-        <tr>
-          <td>APPROVED SALARY</td>
-          <td>$58,000</td>
-        </tr>
+        <thead>
+          <tr class="header row">
+            <th colspan="2">Job Description
+              <button class="edit-button"><img src="images/pencil-white.png" class="pencil">EDIT</button>
+            </th>
+          </tr>
+        </thead>
+        </tbody>
+          <tr class="row top">
+            <td class="row-head top">POSITION TITLE</td>
+            <td class="row-body top">Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td class="row-head">LOCATION</td>
+            <td class="row-body">San Francisco, CA</td>
+          </tr>
+          <tr>
+            <td class="row-head">EMPLOYMENT TYPE</td>
+            <td class="row-body">Full-time</td>
+          </tr>
+          <tr>
+            <td class="row-head">EXPERIENCE</td>
+            <td class="row-body">Mid-level</td>
+          </tr>
+          <tr>
+            <td class="row-head">STATUS</td>
+            <td class="row-body">Open</td>
+          </tr>
+          <tr class="description">
+            <td class="row-head" id="description">DESCRIPTION</td>
+            <td class="row-body" id="description">The Customer Service Representative is resposnible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich</td>
+          </tr>
+          <tr>
+            <td class="row-head">HIRING LEAD</td>
+            <td class="row-body"><img class="hiring-photo" alt="profile picture" src="images/blank-profile.png">Tom Tizzy</td>
+          </tr>
+          <tr>
+            <td class="row-head last">APPROVED SALARY</td>
+            <td class="row-body salary last">$58,000</td>
+          </tr>
+        </tbody>
       </table>
 
     </article>
 
-    <article>
+    <article class="link-container">
+      <section class="social-buttons-container">
+        <button class="social-media facebook">
+          <img class="facebook-icon social-media-icon" alt="facebook icon" src="images/facebook.png">
+          <span class="button-text">Post to Facebook</span></button>
+        <button class="social-media twitter">
+          <img class="twitter-icon social-media-icon" alt="twitter icon" src="images/twitter.png">
+          <span class="button-text">Tweet This Job</span></button>
+        <button class="social-media linkedin">
+          <img class="linkedin-icon social-media-icon" alt="linkedin icon" src="images/linkedin.png">
+          <span class="button-text">Post to Linkedin</span></button>
+      </section>
 
-      <button></button>
-      <button></button>
-      <button></button>
+      <div class="link-section">
+        <p>
+          <h3>
+            <img class="world-icon link-icon" alt="globe icon" src="images/globe.png">
+            Link to this Job</h3>
+          <h5 class="link-body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget leo faucibus mauris congue aliquam.</h5>
+        </p>
 
-      <p>
-        <h3></h3>
-        <h5></h5>
-      </p>
+      <input type="link" class="link-info" value="http://www.lipsum.com/">
+      <button class="copy">Copy</button>
+      </div>
 
-      <input>
-      <button></button>
+      <div class="button-section">
+        <p>
+          <h3>
+            <img class="camera-icon link-icon" alt="camera icon" src="images/webcam.png">
+            Use the Button Widget</h3>
+          <h5 class="link-body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget leo faucibus mauris congue aliquam. </h5>
+        </p>
 
-      <hr>
+        <input type="link" class="link-info" value="http://www.lipsum.com/">
+        <button class="copy">Copy</button>
+      </div>
 
-      <p>
-        <h3></h3>
-        <h5></h5>
-      </p>
+      <div class="upload-section">
+        <p>
+          <h3>
+            <img class="sent-icon" alt="send icon" src="images/sent.svg">
+            Upload Resumes by Email</h3>
+          <h5 class="link-body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget leo faucibus mauris congue aliquam. </h5>
+        </p>
 
-      <input>
-      <button></button>
-
-      <hr>
-
-      <p>
-        <h3></h3>
-        <h5></h5>
-      </p>
-
-      <input>
-      <button></button>
+        <input type="link" class="link-info upload" value="tomtizzy@gmail.com">
+      </div>
 
     </article>
-
+  </section>
+  </section>
+  <section class="aside">
     <aside>
-      <div>
-        <img>
-        <p></p>
+      <div class="profile-container">
+        <img class="personal-picture" alt="profile picture" src="images/profile-picture.jpg">
+        <p class="name">Spencer Hilvitz
+          <img class="down-arrow" alt="down arrow" src="images/down-arrow.svg">
+        </p>
       </div>
 
-      <div>
-        <p>Main</p>
+      <div class="main-aside">
+        <p class="main-title">Main</p>
 
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="side-nav">
+            <img class="home-icon side-nav-icon" alt="house icon" src="images/home.svg">
+            HOME</li>
+          <li class="side-nav">
+            <img class="jobs-icon side-nav-icon" alt="briefcase icon" src="images/jobs.svg">
+            JOBS</li>
+          <li class="side-nav">
+            <img class="resume-icon side-nav-icon" alt="resume icon" src="images/resume.svg">
+            RESUMES</li>
+          <li class="side-nav">
+            <img class="tasks-icon side-nav-icon" alt="tasks icon" src="images/tasks.svg">
+            TASKS</li>
+          <li class="side-nav">
+            <img class="calendar-icon side-nav-icon" alt="calendar icon" src="images/calendar.svg">
+            CALENDAR</li>
         </ul>
 
       </div>
 
-      <hr>
-
-      <div>
-        <p>Admin</p>
+      <div class="admin-aside">
+        <p class="admin-title">Admin</p>
 
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="side-nav">
+            <img class="users-icon side-nav-icon" alt="users icon" src="images/users.svg">
+            USERS</li>
+          <li class="side-nav">
+            <img class="locations-icon side-nav-icon" alt="locations icon" src="images/location.svg">
+            LOCATIONS</li>
+          <li class="side-nav">
+            <img class="workflow-icon side-nav-icon" alt="workflow icon" src="images/workflow.svg">
+            WORKFLOWS</li>
+          <li class="side-nav">
+            <img class="job-boards-icon side-nav-icon" alt="job boards icon" src="images/job-boards.svg">
+            JOB BOARDS</li>
+          <li class="side-nav">
+            <img class="social-icon side-nav-icon" alt="social icon" src="images/social.svg">
+            SOCIAL</li>
         </ul>
 
       </div>
 
-      <div>
+      <div class="categories">
+
+        <p class="categories-title">Categories</p>
+        <div class="checkmark-section">
+        <input class="checkbox" type="checkbox">
+        <label for="administrative">Administrative</label>
+        </div>
+        <div class="checkmark-section">
+        <input class="checkbox" type="checkbox">
+        <label for="design">Design</label>
+        </div>
+        <div class="checkmark-section">
+        <input class="checkbox" type="checkbox">
+        <label for="executive">Executive</label>
+        </div>
+        <div class="checkmark-section">
+        <input class="checkbox" type="checkbox">
+        <label for="human resources">Human Resources</label>
+        </div>
+
       </div>
 
     </aside>
 
+  </section>
+
+</section>
   </body>
 </html>
