@@ -33,12 +33,20 @@ body {
   width: 100%;
 }
 
+.icon {
+  height: 18px;
+  width: 18px;
+  fill: #354052;
+}
 
 .container {
   border-left: 1px solid #DAE4ED;
   cursor: pointer;
-  padding: 10px;
-  padding-bottom: 0;
+  padding: 15px;
+}
+
+.top-icon {
+  padding: 15px;
 }
 
 .search-bar {
@@ -46,13 +54,14 @@ body {
 }
 
 .search {
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
 }
 
 .main-search {
+  color: #354052;
   border: none;
-  font-size: 25px;
+  font-size: 20xpx;
   outline: none;
   width: 95%;
 }
@@ -79,6 +88,7 @@ h5 {
 .location-icon {
   height: 10px;
   width: 10px;
+  fill: #354052;
 }
 
 a {
@@ -101,6 +111,7 @@ a {
   background-color: transparent;
   border: 1px solid #DAE4ED;
   border-radius: 100px;
+  color: #354052;
   cursor: pointer;
   margin: 0 10px;
 }
@@ -251,7 +262,7 @@ ul {
 
 .up-arrow-icon {
   cursor: pointer;
-  fill: white;
+  fill: #354052;
   height: 15px;
   position: relative;
   top: 8px;
@@ -384,7 +395,11 @@ tr {
 .link-section,
 .button-section {
   border-bottom: 1px solid #DAE4ED;
-  width: 90%;
+  width: 80%;
+}
+
+.upload-section {
+  width: 83%;
 }
 
 .facebook {
@@ -429,7 +444,7 @@ h3 {
 
 .upload {
   margin-bottom: 10px;
-  width: 90%;
+  width: 96%;
 }
 
 .link-icon {
@@ -494,15 +509,11 @@ aside {
   margin: 10px 0;
 }
 
-.side-nav:hover {
-  color: white;
-  text-decoration: none;
-}
-
 .side-nav-icon {
   height: 10px;
   margin: 0px 5px;
   width: 10px;
+  fill: #8F9AAC;
 }
 
 .categories {
@@ -520,6 +531,11 @@ label {
 .checkmark-section {
   margin: 3px 0 15px;
   padding-top: 5px;
+}
+
+.checkbox-icon {
+  height: 10px;
+  width: 10px;
 }
 
 
